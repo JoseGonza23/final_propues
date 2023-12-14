@@ -1,0 +1,59 @@
+
+<ion-header class="pop" [translucent]="false">
+  <ion-toolbar class="pop" >
+    <ion-item id="header" class="pop">
+      <ion-icon name="person-circle-outline" (click)="irPerfil()" class="perfot"></ion-icon>
+      <h3> IUMACO </h3> 
+      <div id="logo"><img src="../../assets/sena.png" class="logo"></div>
+      <div class="custom-button" slot="end">
+        <ion-button fill="clear" class="botonsesion"   (click)="salirPagina()">Cerrar sesión</ion-button>
+      </div>
+    </ion-item>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content  class="jiji">
+  <div class="center">
+    <ion-title>COORDINADOR</ion-title>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div class="center">
+    <ion-row>
+      <ion-col>
+      </ion-col>
+      <ion-col >
+        <div class="center"> 
+          <ion-card class="uno"  (click)="CitarComite()" >
+            <ion-card-header>
+              <ion-icon name="calendar-outline"></ion-icon>
+            </ion-card-header>
+            <ion-card-content>
+              Peticiones
+            </ion-card-content>
+          </ion-card>
+        </div>
+      </ion-col>
+      
+      <ion-col>
+        <ion-card class="dos" (click)="Documentos()">
+          <ion-card-header>
+            <ion-icon name="Document"></ion-icon>
+          </ion-card-header>
+          <ion-card-content>
+            Citacones a Comite
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+      <ion-col>
+
+      </ion-col>
+    </ion-row>
+  </div>
+  <img class="este" src="../../assets/icon/Captura-fondo-sena.png">
+</ion-content>

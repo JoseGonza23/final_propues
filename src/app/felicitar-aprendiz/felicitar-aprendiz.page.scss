@@ -1,0 +1,185 @@
+//encabezado
+.pop{
+  --background: rgb(57, 169, 0);
+}
+h1{
+  text-align: center;
+  font-size: 30px;
+  position: absolute;
+  margin-top: -400px;
+}
+h3{
+  margin-left: 20px;
+  font-size: 22px;
+  color:#FFFFFF
+}
+.logo{
+  height: 70px;
+  padding-left: 690px;
+}
+.botonsesion{
+  --color:#ffffff;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 15px;
+}
+.botonsesion:hover{
+  --color: rgb(57, 169, 0);
+  background-color: white;
+  margin-right: 5px;
+}
+//cuerpo
+.centered-container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  padding-left: 10px;
+}
+
+#botonesRutas {
+  text-align: right;
+  padding-right: 10px;
+  display: flex;
+}
+
+#formularioFelicitar {
+  width: 650px;
+  height: 450;
+  margin: 0 auto;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgb(57, 169, 0);
+  margin-top: 95px;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30px;
+  margin-top: 50px;
+  border-bottom: 2px solid black;
+  display: inline-block;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background-color: rgb(57, 169, 0 );
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+
+  color:white;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+ion-input{
+  border-radius: 15px;
+}
+.cuatro{
+  border: 2px solid rgb(156, 121, 121);
+  border-radius:15px; 
+  margin-right: 35px;
+}
+.cuatru{
+  border: 2px solid rgb(156, 121, 121);
+  border-radius:15px; 
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.perfil{
+  width: 50px;
+  height: 50px;
+}
+ion-label{
+  font-size: 20px;
+  margin-left: 5px;
+}
+.center{
+  text-align: center;
+}
+
+ion-icon{
+  width: 35px;
+  height: 35px;
+  margin-left: 10px;
+  margin-top: 18px;
+}
+h4{
+  font-size: 20px;
+  position: absolute;
+  margin-top: -30px;
+  margin-left: 60px;
+}
+.fecha{
+  border: 3px solid rgb(156, 121, 121);
+  border-radius: 15px;
+  margin:20px ; 
+}
+.uno{
+  border: 3px solid  rgb(57, 169, 0);
+  margin-top: 60px;
+  margin-left: 100px;
+  border-radius: 20px;
+  width: 320px;
+  height: 80px;
+  justify-content: center;
+}
+.uno:hover, .two:hover, .tre:hover{
+  background-color: rgb(57, 169, 0);
+  color: white;
+  cursor: pointer;
+  ion-icon{
+    color: white;
+  }
+}
+
+@media screen and (max-width: 500px){
+
+  .uno{
+    border: 3px solid  rgb(57, 169, 0);
+    margin-top: 90px;
+    margin-left: 0;
+    border-radius: 20px;
+    width: 290px;
+    height: 60px;
+    justify-content: center;
+  }
+  .respon{
+    padding-left: 15%;
+  }
+  .este{
+    display: none;
+  }
+  #formularioFelicitar {
+    width: 400px;
+    height: 450;
+  }
+  h2{
+    font-size: 30px;
+  }
+  h3{
+    font-size: 18px;
+  }
+  .botonsesion{
+    --color:#ffffff;
+    width: 140px;
+    height: 60px;
+    border-radius: 10px;
+    background: #39A900;
+    margin: 15px;
+    font-size: 15px;
+  }
+  .botonsesion:hover{
+    --color: white;
+    background-color: rgb(57, 169, 0);
+    border: 3px solid  white;
+  }
+}

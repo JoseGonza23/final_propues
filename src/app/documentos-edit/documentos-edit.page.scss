@@ -1,0 +1,105 @@
+.pop{
+    --background: rgb(57, 169, 0);
+  }
+  h1{
+    text-align: center;
+    font-size: 30px;
+    position: absolute;
+    margin-top: -400px;
+  }
+  h3{
+    margin-left: 20px;
+    font-size: 22px;
+    color:#FFFFFF
+  }
+  .logo{
+    height: 70px;
+    padding-left: 690px;
+  }
+  .exit{
+    --color:#ffffff;
+    height: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+  }
+  .botonsesion:hover{
+    --color: rgb(57, 169, 0);
+    background-color: white;
+    margin-right: 5px;
+  }
+ion-content { 
+    
+
+    #curDate{   
+        
+        ion-select{
+            margin-left: 4px;
+            margin-right: 4px;
+            color: black;
+            background-color: white;
+        }
+        
+        /*#item1{} #item2{} #item3{}*/
+    }
+}
+
+ion-header{
+    ion-toolbar{
+        ion-item{
+           
+            button {
+                background-color: rgb(57, 169, 0);
+                width: 100px;
+                height: 30px;
+                border-radius: 10px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                margin-right: 10px;
+              }
+        
+              button:hover {
+                color: rgb(57, 169, 0);
+                background-color: transparent;
+                border: 3px solid  rgb(57, 169, 0);
+              }
+        }
+    }
+}
+
+#actualizar {
+    background-color: rgb(57, 169, 0);
+    width: 150px;
+    height: 60px;
+    size: 20px;
+    font-size: 20px;
+    margin-left: 400px;
+    margin-right:400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+}
+
+#actualizar:hover {
+    
+    background-color: transparent;
+    border: 3px solid  rgb(57, 169, 0);
+}
+.lilo{
+    border: 2px solid  rgb(156, 121, 121);
+    margin: 70px;
+    margin-left: 400px;
+    margin-right:400px;
+    border-radius: 15px;
+}
+.center{
+    text-align: center;
+  }
+  ion-title{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    color: black;
+  }
